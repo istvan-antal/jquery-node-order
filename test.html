@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Node Order Test</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery-node-order.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li id="1">1</li>
+            <li id="2">2</li>
+            <li id="3">3</li>
+        </ul>
+        <script>
+            $(function () {
+                $("#2").forward();
+                $("#3").backward();
+                console.log($("#1").order());
+            });
+        </script>
+    </body>
+</html>
