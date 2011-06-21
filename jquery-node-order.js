@@ -1,6 +1,6 @@
 /*!
  * jQuery Node Order Plugin v0.1
- * http://www.istvan-antal.ro/jquery-event-debug.html
+ * http://www.istvan-antal.ro/jquery-node-order.html
  *
  * Copyright 2011, Antal István Miklós
  * Dual licensed under the MIT or GPL Version 2 licenses.
